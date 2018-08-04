@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/colorPrimary"
+    android:weightSum="100">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="40"
+    android:id="@+id/img_d"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp"
+        android:id="@+id/name_d"/>
+    <TextView
+        android:textColor="@android:color/background_light"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textSize="18dp"
+        android:id="@+id/type_d"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_light"
+        android:layout_weight="10"
+        android:textSize="18dp"
+        android:id="@+id/desc_d"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@android:color/background_light"
+        android:layout_height="match_parent"
+        android:text="Add Donations"
+        android:layout_weight="10"
+        android:textSize="18dp"
+        />
+
+        <EditText
+            android:textColor="@android:color/background_light"
+            android:id="@+id/add"
+android:inputType="number
+"            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="200dp"
+        android:layout_weight="10"
+        android:text="Confirm" />
+</LinearLayout>
